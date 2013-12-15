@@ -6,13 +6,6 @@ five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
 puts "Write a number ?"
 userNumber = gets
 
-nums = []
-1.upto(userNumber.to_i) do |num|
-	if num % 3 == 0 || num % 5 == 0
-		nums.push(num)
-	end	
-end
-	print nums
-
+print (1..userNumber.to_i).select {|num| num%5 == 0 || num%3 == 0}
 
 
