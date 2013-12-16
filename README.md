@@ -1,7 +1,10 @@
 Simple Programming Problems
----------------------------
+===========================
 
 http://adriann.github.io/programming_problems.html
+
+Elementery
+----------
 
 1 Write a program that prints ‘Hello World’ to the screen. <b>(helloword.rb)</b>
 
