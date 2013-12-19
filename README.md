@@ -12,8 +12,10 @@ Elementery
 
 3-Write a program that asks the user for a number n and prints the sum of the numbers 1 to n <b>(sumOfNumbers.rb)</b>
 
-4 Modify the previous program such that only multiples of three or 
+4-Modify the previous program such that only multiples of three or 
 five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17 <b>(multiples.rb)<b>
 
-5 Write a program that asks the user for a number n and gives 
+5-Write a program that asks the user for a number n and gives 
 	him the possibility to choose between computing the sum and computing the product of 1,…,n. <b>(choice.rb)</b>
+
+6-Write a program that prints a multiplication table for numbers up to 12.<b>(multiplicationTable.rb)</b>
