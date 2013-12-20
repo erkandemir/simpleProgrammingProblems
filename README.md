@@ -20,6 +20,6 @@ five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17 <b>(multipl
 
 6-Write a program that prints a multiplication table for numbers up to 12.<b>(multiplicationTable.rb)</b>
 
-7-beginWrite a program that prints all prime numbers. 
+7-Write a program that prints all prime numbers. 
 (Note: if your programming language does not support arbitrary size numbers, 
 printing all primes up to the largest number you can represent is fine too.) <b>(prime.rb)</b>
