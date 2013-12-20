@@ -23,3 +23,8 @@ five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17 <b>(multipl
 7-Write a program that prints all prime numbers. 
 (Note: if your programming language does not support arbitrary size numbers, 
 printing all primes up to the largest number you can represent is fine too.) <b>(prime.rb)</b>
+
+8-Write a guessing game where the user has to guess a secret number. 
+After every guess the program tells the user whether his number was too large or too small.
+At the end the number of tries needed should be printed. 
+I counts only as one try if the user inputs the same number consecutively.	<b>(guessingGame.rb)</b>
