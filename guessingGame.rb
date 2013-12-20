@@ -18,4 +18,4 @@ loop do
  	end 	
  	guessNums << userNum unless guessNums.include? userNum
 end
-puts "Numbers of try :#{guessNums.length} The numbers called : #{guessNums}"
+puts "Count of try :#{guessNums.length} The numbers called : #{guessNums}"
