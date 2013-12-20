@@ -11,19 +11,14 @@ loop do
 	
 	puts "Enter a number"
 	userNum = gets.to_i	
- 	
- 	if userNum < secretNum
- 		puts "Too small" 	
- 	elsif userNum > secretNum
- 		puts "Too big"
+ 	if userNum != secretNum
+ 		puts userNum < secretNum ? "Too small" : "Too big"
  	else 
- 		puts "You found!!"
+ 		puts "You found!! Number is #{userNum}"
+ 		break
  	end
  	
  	guessNums << userNum unless guessNums.include? userNum
-
-	break if userNum == secretNum
-
 end
 
 puts "The numbers called : #{guessNums}"
