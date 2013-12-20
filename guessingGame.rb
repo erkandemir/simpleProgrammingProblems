@@ -7,8 +7,7 @@ After every guess the program tells the user whether his number was too large or
 
 secretNum = 7843
 guessNums = []
-loop do
-	
+loop do	
 	puts "Enter a number"
 	userNum = gets.to_i	
  	if userNum != secretNum
@@ -16,9 +15,7 @@ loop do
  	else 
  		puts "You found!! Number is #{userNum}"
  		break
- 	end
- 	
+ 	end 	
  	guessNums << userNum unless guessNums.include? userNum
 end
-
-puts "The numbers called : #{guessNums}"
+puts "Numbers of try :#{guessNums.length} The numbers called : #{guessNums}"
