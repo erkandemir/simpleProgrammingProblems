@@ -30,3 +30,6 @@ At the end the number of tries needed should be printed.
 I counts only as one try if the user inputs the same number consecutively.	<b>(guessingGame.rb)</b>
 
 9-Write a program that prints the next 20 leap years. <b>(leap.rb)</b>
+
+10 -Write a program that computes
+4⋅∑k=1106(-1)k+12k-1=4⋅(1-1/3+1/5-1/7+1/9-1/11…).  <b>(pi.rb)</b>
